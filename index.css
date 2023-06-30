@@ -1,0 +1,283 @@
+body{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+.header{
+  margin: 50px 80px 300px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img{
+  height: 45px;
+}
+
+.header button{
+  font-family: Open Sans;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 55px;
+  border: 1px solid hsl(322, 100%, 66%);
+  color: hsl(322, 100%, 66%);
+  font-size: 18px;
+  transition: color 0.15s, border 0.15s, background-color 0.15s;
+}
+
+.header button:hover{
+  color: white;
+  border: 1px solid hsl(322, 100%, 80%);
+  background-color: hsl(322, 100%, 80%);
+  cursor: pointer;
+}
+
+.start-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
+
+.info-start{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-start-name{
+  font-family: Poppins;
+  font-size: 60px;
+  margin-bottom: 55px;
+}
+
+.info-start-description{
+  font-family: Open Sans;
+  font-weight: 600;
+  width: 680px;
+  font-size: 22px;
+  margin-bottom: 55px;
+}
+
+.start-page-btn{
+  font-family: Open Sans;
+  font-weight: 600;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 22px;
+  color: white;
+  border: none;
+  padding: 26px 120px;
+  border-radius: 120px;
+  box-shadow: 0px 12px 20px 1px rgba(0, 0, 0, .1);
+  transition: background-color 0.15s;
+}
+
+.start-page-btn:hover{
+  background-color: hsl(322, 100%, 80%);
+  cursor: pointer;
+}
+
+.second-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.second-page-img-container{
+  width: 70%;
+}
+
+.second-page-img-container img{
+  width: 100%;
+}
+
+.second-page-stats{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 150px;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 250px;
+}
+
+.stats-communities img{
+  width: 60px;
+}
+
+.stats-messages img{
+  width: 60px;
+}
+
+.communities-amount,
+.messages-amount{
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 120px;
+}
+
+.communities-Formed,
+.messages-sent{
+  font-family: Open Sans;
+  font-size: 28px;
+  text-align: center;
+  opacity: .5;
+}
+
+.main-third-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(192, 100%, 9%);
+  position: relative;
+}
+
+.pagecolor{
+  background-color: hsl(207, 100%, 98%);
+}
+
+.marginleft-thirdpage{
+  margin-left: 7%;
+}
+
+.third-page{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.main-third-page img{
+  width: 35%;
+}
+
+.third-page-info{
+  max-width: 800px;
+}
+
+.third-page-info-name{
+  font-family: Poppins;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.third-page-info-text{
+  font-family: Open Sans;
+  font-size: 20px;
+  max-width: 650px;
+}
+
+.page-bg-image{
+  width: 100%;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Open Sans;
+  font-size: 18px;
+  margin-top: 200px;
+}
+
+.main-footer{
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  padding: 100px 200px 70px 150px;
+  justify-content: space-between;
+}
+
+.footer-logo{
+  filter: grayscale() invert() contrast(100);
+  margin-bottom: 20px;
+}
+
+.footer-description{
+  max-width: 300px;
+  line-height: 24px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+
+.footer-phone{
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer-phone img{
+  margin-right: 25px;
+  width: 25px;
+  height: auto;
+}
+
+.footer-social{
+  margin-top: 100px;
+  display: flex;
+}
+
+.footer-social img{
+  filter: invert();
+  width: 50px;
+  margin-right: 25px;
+  transition: filter 0.15s, transform 0.15s;
+}
+
+.footer-social img:hover{
+  transform: scale(1.1);
+  filter: invert(56%) sepia(51%) saturate(1377%) hue-rotate(178deg) brightness(103%) contrast(101%);
+  cursor: pointer;
+}
+
+.footer-right-name{
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.footer-right-description{
+  max-width: 330px;
+  line-height: 24px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+
+.footer-right-inpt input{
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 20px;
+}
+
+.footer-right-inpt button{
+  height: 40px;
+  padding: 0px 40px;
+  font-family: Open Sans;
+  font-weight: 400;
+  background-color: hsl(322, 100%, 66%);
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.15s;
+}
+
+.footer-right-inpt button:hover{
+  background-color: hsl(322, 100%, 80%);
+  cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .communities-amount,
+  .messages-amount{
+    font-size: 90px;
+  }
+  .third-page-info-name{
+    font-size: 40px;
+  }
+}
